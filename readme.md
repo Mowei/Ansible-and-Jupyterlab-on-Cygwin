@@ -13,14 +13,8 @@ setup-x86_64.exe --no-admin -q --packages=ansible,libzmq-devel,libffi-devel,pyth
 
 pip3.7 install jupyterlab   
 
-or
-
-cd jupyterlab   
-pip3.7 install *   
-
 
 # Offline Install
    
-1. Download pyzmq-17.0.0.tar.gz replace pyzmq-22.0.3.tar.gz (https://pypi.org/project/pyzmq/17.0.0/#files)   
-2. tar -zxf argon2_cffi-19.1.0.tar.gz ;cd argon2_cffi-19.1.0 ; python3 setup.py install .   
-3. pip3.7 install *.*   
+1. pip3.7 install wheel-0.36.2-py2.py3-none-any.whl   
+2. pip3.7 install --no-index --no-build-isolation *   

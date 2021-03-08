@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pip3.7 install wheel-0.36.2-py2.py3-none-any.whl   
+pip3.7 install --no-index --no-build-isolation *
